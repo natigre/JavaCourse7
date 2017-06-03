@@ -1,17 +1,15 @@
-package javacourse7.module1.homework;
+package javacourse7.homework.module1;
 
 import java.util.*;
 
 public class Greeting {
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your name: ");
-        String name = in.nextLine();
+        String name = scanner.nextLine();
 
         System.out.println("Hello, " + name);
-
-
     }
 }

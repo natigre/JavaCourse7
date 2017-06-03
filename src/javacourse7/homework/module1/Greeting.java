@@ -2,6 +2,10 @@ package javacourse7.homework.module1;
 
 import java.util.*;
 
+/*
+Task 1.1
+ */
+
 public class Greeting {
     public static void main(String[] args) {
 

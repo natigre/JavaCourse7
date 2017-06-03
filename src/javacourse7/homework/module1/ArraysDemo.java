@@ -2,6 +2,10 @@ package javacourse7.homework.module1;
 
 import java.util.*;
 
+/*
+Task 1.2
+ */
+
 public class ArraysDemo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

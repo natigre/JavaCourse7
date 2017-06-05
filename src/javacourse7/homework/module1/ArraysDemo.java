@@ -17,17 +17,10 @@ public class ArraysDemo {
             System.out.print("Enter number " + (i + 1) + ": ");
             array[i] = input.nextInt();
         }
+        System.out.println("Initial array:" + Arrays.toString(array));
 
-        System.out.print("Initial array:");
-        for (int i = 0; i < size; i++) {
-            System.out.print(" " + array[i]);
-        }
-
-        System.out.println();
         Arrays.sort(array);
-        System.out.print("Sorted array:");
-        for (int el: array ) {
-            System.out.print(" " + el);
-        }
+        System.out.print("Sorted array:" + Arrays.toString(array));
+
     }
 }
